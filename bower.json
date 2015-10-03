@@ -1,29 +1,7 @@
 {
-  "name": "phaser-template",
+  "name": "garrulous-barnacle",
   "version": "0.0.0",
-  "authors": [
-    "eguneys <eguneys@hotmail.com>"
-  ],
-  "description": "Phaser template with requirejs and gulp",
-  "moduleType": [
-    "amd"
-  ],
-  "keywords": [
-    "phaser",
-    "requirejs",
-    "gulp"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
-    "requirejs": "~2.1.20",
-    "almond": "~0.3.1",
-    "phaser-official": "~2.4.3"
+    "phaser-official": "2.4.3"
   }
 }
