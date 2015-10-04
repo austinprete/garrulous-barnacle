@@ -8,13 +8,13 @@ Menu.prototype = {
   },
   create: function() {
     var style = { font: '65px Arial', fill: '#ffffff', align: 'center'};
-    this.sprite = this.game.add.sprite(this.game.world.centerX, 138, 'ship');
+    this.sprite = this.game.add.sprite(this.game.world.centerX, 530, 'ship');
     this.sprite.anchor.setTo(0.5, 0.5);
 
-    this.titleText = this.game.add.text(this.game.world.centerX, 300, 'Garrulous Barnacle', style);
+    this.titleText = this.game.add.text(this.game.world.centerX, 150, 'Garrulous Barnacle', style);
     this.titleText.anchor.setTo(0.5, 0.5);
 
-    this.instructionsText = this.game.add.text(this.game.world.centerX, 400, 'Click or press enter to play', { font: '16px Arial', fill: '#ffffff', align: 'center'});
+    this.instructionsText = this.game.add.text(this.game.world.centerX, 200, 'Click or press enter to play', { font: '16px Arial', fill: '#ffffff', align: 'center'});
     this.instructionsText.anchor.setTo(0.5, 0.5);
 
     this.sprite.angle = -20;
