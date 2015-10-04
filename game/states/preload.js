@@ -12,8 +12,9 @@ Preload.prototype = {
 
     this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
     this.load.setPreloadSprite(this.asset);
-    this.load.image('ship', 'assets/SpaceShooterRedux/PNG/playerShip1_blue.png');
-
+    var spritePath = 'assets/SpaceShooterRedux/PNG/';
+    this.load.image('ship', spritePath + 'playerShip1_blue.png');
+    this.load.image('enemy1', spritePath + 'enemies/enemyRed1.png');
   },
   create: function() {
     this.asset.cropEnabled = false;
